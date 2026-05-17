@@ -143,8 +143,7 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
       print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: Deepika R")
-    print("Register Number: 212223230038")
+    
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -184,8 +183,7 @@ def test_model(model, test_loader):
     accuracy = correct / total
     print(f"Test Accuracy: {accuracy:.4f}")
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name: Deepika R")
-    print("Register Number: 212223230038")
+    
     plt.figure(figsize=(8, 6))
     sns.heatmap(
         cm,
@@ -199,8 +197,6 @@ def test_model(model, test_loader):
     plt.ylabel('Actual')
     plt.title('Confusion Matrix')
     plt.show()
-    print("Name: Deepika R")
-    print("Register Number: 212223230038")
     print("Classification Report:")
     print(
         classification_report(
