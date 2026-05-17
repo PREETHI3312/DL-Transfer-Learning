@@ -8,7 +8,7 @@ Develop an image classification model using transfer learning with the pre-train
 
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="987" height="792" alt="image" src="https://github.com/user-attachments/assets/1e412a42-ced2-4b84-87ca-f2fd46388fed" />
 
 ### DESIGN STEPS
 #### STEP 1: 
